@@ -4,7 +4,7 @@ version: "v0.0.1"
 maintainer: "argentoff@gmail.com"
 authors: ["Pavel Argentov"]
 tags: []
-license: "NIT"
+license: "MIT"
 homepage: ""
 dev-repo: ""
 bug-reports: ""
