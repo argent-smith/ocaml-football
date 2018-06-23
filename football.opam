@@ -1,0 +1,19 @@
+opam-version: "1.2"
+name: "football"
+version: "v0.0.1"
+maintainer: "argentoff@gmail.com"
+authors: ["Pavel Argentov"]
+tags: []
+license: "NIT"
+homepage: ""
+dev-repo: ""
+bug-reports: ""
+doc: ""
+build: [
+  [ "jbuilder" "subst" ] {pinned}
+  [ "jbuilder" "build" "-p" name "-j" jobs ]
+]
+depends: [
+  "jbuilder" {build}
+  "alcotest" {test}
+]

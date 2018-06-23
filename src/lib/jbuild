@@ -1,0 +1,6 @@
+(jbuild_version 1)
+
+(library
+ ((name        football)
+  (public_name football)
+  (synopsis    "Simple football bookmaker example")))
