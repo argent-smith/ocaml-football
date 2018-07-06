@@ -1,0 +1,4 @@
+(executable
+ ((name        bookmaker)
+  (public_name bookmaker)
+  (libraries  (football))))
